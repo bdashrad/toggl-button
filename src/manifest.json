@@ -52,7 +52,8 @@
     "*://bugs.jquery.com/*",
     "*://*.wunderlist.com/*",
     "*://*.teamwork.com/*",
-    "*://*.teamworkpm.net/*"
+    "*://*.teamworkpm.net/*",
+    "*://backlog.acquia.com/*"
   ],
   "icons": {
     "16": "images/icon-16.png",
@@ -93,7 +94,8 @@
         "*://*.wunderlist.com/*",
         "*://*.toodledo.com/*",
         "*://*.teamwork.com/*",
-        "*://*.teamworkpm.net/*"
+        "*://*.teamworkpm.net/*",
+        "*://backlog.acquia.com/*"
       ],
       "css": ["styles/style.css"],
       "js": ["scripts/common.js"]
@@ -159,7 +161,7 @@
       "js": ["scripts/content/basecamp.js"]
     },
     {
-      "matches": ["*://*.atlassian.net/*"],
+      "matches": ["*://*.atlassian.net/*", "*://backlog.acquia.com/*"],
       "js": ["scripts/content/jira.js"]
     },
     {
